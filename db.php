@@ -1,5 +1,5 @@
 <?php
-$dbname="usr_web52_4";
+$dbname="talenddb";
 $dbhost="localhost";
 $dbuser="web52";
 $dbpass="Maxmoll_6";
