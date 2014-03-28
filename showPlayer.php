@@ -101,7 +101,7 @@ $sort = "ORDER BY ".$sort;
 $ergebnis = mysql_query($abfrage);
 while($row = mysql_fetch_assoc($ergebnis))
    {
-   echo "<tr><td>$row[ID] </td><td>$row[Name]</td><td>$row[Vorname]</td><td>$row[Geburtsdatum]</td><td>$row[Potential]</td><td>$row[Technik]</td><td>$row[Intelligenz]</td><td>$row[Personlichkeit]</td><td>$row[Schnelligkeit]</td><td><a href=http://saas-adlerhorst.ch/TalentDB/PlayerDetail.php?id=$row[ID]>Detail</a></td>";
+   echo "<tr><td>$row[ID] </td><td>$row[Name]</td><td>$row[Vorname]</td><td>$row[Geburtsdatum]</td><td>$row[Potential]</td><td>$row[Technik]</td><td>$row[Intelligenz]</td><td>$row[Personlichkeit]</td><td>$row[Schnelligkeit]</td><td><a href=PlayerDetail.php?id=$row[ID]>Detail</a></td>";
    
    }
 ?>
