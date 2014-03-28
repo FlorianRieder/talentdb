@@ -1,8 +1,7 @@
 <?
 include ("db.php");
 
-echo"Hallo Welt Master" . "<br>";
-
+echo"Hallo Welt finally" . "<br>";
 $abfrage = "SELECT * FROM Test";
 $ergebnis = mysql_query($abfrage);
 while($row = mysql_fetch_assoc($ergebnis))
