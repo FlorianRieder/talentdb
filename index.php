@@ -1,7 +1,7 @@
 <?
 include ("db.php");
 
-echo"Hallo WElt" . "<br>";
+echo"Hallo Welt" . "<br>";
 
 $abfrage = "SELECT * FROM Test";
 $ergebnis = mysql_query($abfrage);
